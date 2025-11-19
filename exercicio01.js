@@ -1,29 +1,36 @@
-// let nome = window.prompt("Qual é o seu nome?")
-// window.alert("Bem vindo (a)" + nome)
+// let login = prompt("Qual seu nome? ")
 
+// switch (login) {
+//     case "Admin":
+//         console.log ("Nome correto ")
+//         break;
 
-// let senha = window.prompt("Qual a sua senha")
+//     default:
+//         console.log ("Nome errado! ")
+//         break;
+// }
 
-let login = prompt("Qual seu nome? ")
+//  let senha = prompt("Qual sua senha?")
 
-switch (login) {
-    case "Admin":
-        console.log ("Nome correto ")
-        break;
+//   switch (senha) {
+//     case "senha123":
+//         console.log ("Senha correta")
+//         break;
 
-    default:
-        console.log ("Nome errado! ")
-        break;
+//     default:
+//         console.log ("Senha incorreta")
+//         break;
+//   }
+
+let username = prompt("Digite o seu usuário: ")
+
+let senha = prompt("Digite a sua senha: ")
+
+if (username == "admin" && senha == "senha123") {
+    console.log("Login bem-sucedido!")
+}
+else {
+    console.log("Login incorreto! ;-;")
 }
 
- let senha = prompt("Qual sua senha?")
 
-  switch (senha) {
-    case "senha123":
-        console.log ("Senha correta")
-        break;
-  
-    default:
-        console.log ("Senha incorreta")
-        break;
-  }
