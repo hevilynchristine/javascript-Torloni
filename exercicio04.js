@@ -15,12 +15,16 @@ let soma = (n1 + n2 + n3 + n4) / 4;
 console.log(soma)
 
 if (soma >= 7.0) {
-    console.log("APROVADO");
+    console.log("Aprovado");
 
 } else if (soma >= 5.0) {
-    console.log("RECUPERAÇÃO");
+    console.log("Recuperação");
 } else {
-    console.log("REPROVADO");
+    console.log("Reprovado");
 }
+
+
+
+
 
 
