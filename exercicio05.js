@@ -2,16 +2,17 @@
 // crescente. Exibindo uma mensagem indicando se os números estão em ordem crescente ou
 // não.
 
- window.alert("Digite três numeros")
-let n1 = prompt("Digite seu primeiro numero")
-let n2 = prompt("Digite seu segundo numero")
-let n3 = prompt("Digite seu terceiro numero")
-let n4 = prompt("Digite seu quarto numero")
+ window.alert("Digite três números")
 
-if ( n1 < n2 && n3 > n4) {
-    console.log("Esta em ordem crescente");
+let n1 = parseFloat(prompt("Digite seu primeira número "))
 
-} else{
-    console.log ("Os numeros NÃO estão em ordem crescente")
+let n2 = parseFloat(prompt("Digite seu segunda número "))
+
+let n3 = parseFloat(prompt("Digite seu terceira número "))
+
+if (n1 < n2 && n2 < n3) {
+    console.log("Os números estão em ordem crescente.");
+} else {
+    console.log("Os números NÃO estão em ordem crescente.");
 }
     
