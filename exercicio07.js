@@ -14,8 +14,16 @@ let desconto = 0;
 
 if(valorcompra <= 100) {
     desconto = 0;
-    } else if (valorCompra <= 200) {
-    desconto = valorCompra * 0.10;
+    } else if (valorcompra <= 200) {
+    desconto = valorcompra * 0.10;
 } else {
-    desconto = valorCompra * 0.20;
+    desconto = valorcompra * 0.20;
 }
+
+let valorfinal = valorcompra - desconto
+
+alert("valor da compra: R$ " + valorcompra)
+
+alert("Desconto aplicado: R$ " + desconto)
+
+alert("valor final a pagar: R$ " + valorfinal) 
