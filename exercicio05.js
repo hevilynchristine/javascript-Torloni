@@ -11,8 +11,21 @@ let n2 = parseFloat(prompt("Digite seu segunda número "))
 let n3 = parseFloat(prompt("Digite seu terceira número "))
 
 if (n1 < n2 && n2 < n3) {
-    console.log("Os números estão em ordem crescente.");
-} else {
-    console.log("Os números NÃO estão em ordem crescente.");
+    alert("Os números estão em ordem crescente.");
 }
+
+if (n1 > n2 && n2 >n3) {
+    alert("Os números estão em ordem decrescente.");
+}
+
+else if (n1 <= n2 && n2 >= n3) {
+    alert("Os números estão aleatórios")
+}
+
+
+    
+    
+// } else {
+//     console.log("Os números NÃO estão em ordem crescente.");
+
     
